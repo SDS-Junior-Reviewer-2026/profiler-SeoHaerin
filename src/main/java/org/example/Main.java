@@ -11,7 +11,8 @@ public class Main {
 
         ArrayList<Integer> input = new ArrayList<>(Arrays.asList(5,2,4,1,3,9));
         profiler.setData(input);
-        profiler.setLib(new SelectionSort());
+        //profiler.setLib(new SelectionSort());
+        profiler.setLib(new BubbleSort());
         profiler.runLib();
         profiler.showResult();
     }
