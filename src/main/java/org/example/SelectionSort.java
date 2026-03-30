@@ -19,6 +19,8 @@ public class SelectionSort {
                 }
             }
         }
+        System.out.println(getClass().getSimpleName() + " 테스트");
+        System.out.println("정렬결과: " + arr);
     }
 
     public int getChangeCnt() {
