@@ -10,7 +10,7 @@ public class Profiler {
         private Object lib;
 
         public void setData(ArrayList<Integer> data) {
-            this.input = new ArrayList<>(data); // 원본 보호
+            this.input = new ArrayList<>(data);
         }
 
         public void setLib(Object lib) {
